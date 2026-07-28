@@ -4,6 +4,15 @@
 
 **Persistent memory for AI agents, built on hypergraph technology.**
 
+[![MCP Server](https://img.shields.io/badge/MCP-Server-5A67D8?style=for-the-badge)](https://github.com/hypermemory-ai/hypermemory-mcp)
+[![HyperMemory CLI](https://img.shields.io/pypi/v/hypermemory-cli?style=for-the-badge&logo=pypi&logoColor=white&label=CLI)](https://pypi.org/project/hypermemory-cli/)
+[![Python](https://img.shields.io/pypi/pyversions/hypermemory-cli?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/hypermemory-cli/)
+[![Rust](https://img.shields.io/badge/Rust-Core-000000?style=for-the-badge&logo=rust&logoColor=white)](https://docs.hypermemory.io)
+[![TypeScript SDK](https://img.shields.io/badge/TypeScript-SDK-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/hypermemory-ai/hypermemory-sdk)
+[![Agent Skills](https://img.shields.io/badge/Agent-Skills-FF4F8B?style=for-the-badge)](https://github.com/hypermemory-ai/hypermemory-skill)
+[![OAuth 2.1](https://img.shields.io/badge/OAuth-2.1-EB5424?style=for-the-badge&logo=auth0&logoColor=white)](https://docs.hypermemory.io)
+[![MIT License](https://img.shields.io/github/license/hypermemory-ai/hypermemory-mcp?style=for-the-badge)](https://github.com/hypermemory-ai/hypermemory-mcp/blob/main/LICENSE)
+
 HyperMemory is the long-term memory layer that gives AI agents the ability to remember, reason, and build on previous interactions. Instead of treating memory as simple keyword lookups or semantic similarity search, HyperMemory uses a hypergraph — a mathematical structure that models complex, multi-layered relationships the way the human mind draws connections. The result is memory that compounds over time, becoming more valuable with every interaction.
 
 ---
@@ -42,8 +51,8 @@ Connect any MCP-compatible AI client (Claude Desktop, Cursor, Windsurf, and more
 | Repository | Description |
 |---|---|
 | [hypermemory-mcp](https://github.com/hypermemory-ai/hypermemory-mcp) | MCP server integration — setup guides for Claude, Cursor, ChatGPT, and other clients. The 17-tool MCP surface for reading and writing memory. |
-| [hypermemory-cli](https://github.com/hypermemory-ai/hypermemory-cli) | Command-line interface for HyperMemory. Install via `pip install hypermemory-cli`. JSON output, composable with `jq` and shell scripts. |
-| [hypermemory-sdk](https://github.com/hypermemory-ai/hypermemory-sdk) | Python SDK for programmatic access to the HyperMemory API. |
+| [hypermemory-cli](https://pypi.org/project/hypermemory-cli/) | Python command-line interface for HyperMemory. Install via `pip install hypermemory-cli`. JSON output, composable with `jq` and shell scripts. |
+| [hypermemory-sdk](https://github.com/hypermemory-ai/hypermemory-sdk) | TypeScript SDK for programmatic access to the HyperMemory API. |
 | [hypermemory-skill](https://github.com/hypermemory-ai/hypermemory-skill) | Agent skill definitions (SKILL.md) that teach AI agents how to use HyperMemory — enforced behavior, tool reference, graph hygiene, and style contracts. |
 
 ---
