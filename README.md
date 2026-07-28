@@ -1,3 +1,5 @@
+![HyperMemory banner](assets/github_banner.png)
+
 # HyperMemory
 
 **Persistent memory for AI agents, built on hypergraph technology.**
@@ -49,6 +51,8 @@ Connect any MCP-compatible AI client (Claude Desktop, Cursor, Windsurf, and more
 ## How It Works
 
 HyperMemory stores knowledge as a hypergraph of **nodes**, **edges**, and **hyperedges**.
+
+![How HyperMemory writes and retrieves memories](assets/hm_how.png)
 
 **Nodes** are discrete pieces of knowledge — a person, a decision, a technology, a preference — each with a canonical type from a controlled ontology.
 
